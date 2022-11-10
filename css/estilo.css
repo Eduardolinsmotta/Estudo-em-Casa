@@ -31,9 +31,9 @@ header{
 
 .menu-principal a{
 
-padding: 150px;
-text-decoration: none;
-color: white;
+    padding: 150px;
+    text-decoration: none;
+    color: white;
 }
     
 .produtos{
@@ -45,10 +45,6 @@ color: white;
     text-align: center;
     line-height: 2.8;
     
-}
-
-figure{
-size: 500px;
 }
 
 footer{
