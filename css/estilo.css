@@ -20,39 +20,32 @@ header{
     font-weight: bolder;
 }
 
-.menu-principal{
-    background-color:var(--cor-azul);
-    padding: 10px;
-    text-align: center;
-    height: 50px;
-    border: 5px solid black;
-    background: black;
-}
-
-.menu-principal a{
-
-    text-decoration: none;
-    color: white;
-    }
-
-a.botao1:hover{
-
-    text-decoration: underline;
-    border: 1px;
-    background-color: white;
-    color: var(--cor-preto);
-
-}
+.menu-principal ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .menu-principal a{
+  
+      text-decoration: none;
+      color: white;
+      }
+  
+  .menu-principal a:hover{
+  
+      text-decoration: underline;
+      border: 1px;
+      background-color: white;
+      color: var(--cor-preto);
+  }
     
 .produtos{
 
     width: 50%;
     float: left;
-    height: 560px;
+    height: 100px;
     background-color: var(--cor-azul);
     text-align: center;
-    line-height: 2.8;
-    
 }
 
 footer{
