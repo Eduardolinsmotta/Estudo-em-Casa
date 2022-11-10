@@ -31,9 +31,17 @@ header{
 
 .menu-principal a{
 
-    padding: 150px;
     text-decoration: none;
     color: white;
+}
+
+a.botao1:hover{
+
+    text-decoration: underline;
+    border: 1px;
+    background-color: white;
+    color: var(--cor-preto);
+
 }
     
 .produtos{
