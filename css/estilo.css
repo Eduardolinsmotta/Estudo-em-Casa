@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 :root{
@@ -31,6 +30,7 @@ header{
 .menu-principal ul {
     display: flex;
     justify-content: space-evenly;
+    list-style-type: none;
   }
   
   .menu-principal a{
@@ -48,25 +48,22 @@ header{
   }
     
 .produtos{
-
-    display: inline-block;
-    width: 50%;
-    text-align: center;
-    position: relative;
+    text-decoration: none;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid black;
+    align-items: center;
     top: 200px;
 }
 
-.produtos1{
-    text-align: center;
-    position: relative;
-    top: 150px;
-    left: 50%;
-    text-align: center;
+.produtos h2{
     width: 50%;
+    padding: 10px;
+    align-items: center;
 }
 
 footer{
-    margin-top: 445px;
     background-color: var(--cor-preto);
     color: white;
     padding: 10px;
